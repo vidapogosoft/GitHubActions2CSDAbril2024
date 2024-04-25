@@ -46,7 +46,9 @@ namespace BankAccountNS
             }
 
             //m_balance += amount; // intentionally incorrect code
-            m_balance -= amount; //correccion del error
+            //m_balance -= amount; //correccion del error
+
+            -= amount;
         }
 
         public void Credit(double amount)
