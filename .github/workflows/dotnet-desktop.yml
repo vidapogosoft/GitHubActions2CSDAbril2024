@@ -13,7 +13,7 @@ jobs:
       DOTNET_NOLOGO: true
       BUILD_CONFIGURATION: Release
       PROJECT_PATH: 'Bank'
-      PROJECT_TEST_PATH: 'BankTests/**Tests.cs'
+      PROJECT_TEST_PATH: 'BankTests'
     steps:
       - name: Check out repository code ('${{ github.repository }}' cloned to the runner)
         uses: actions/checkout@v2
