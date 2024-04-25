@@ -12,7 +12,7 @@ namespace BankTests
         {
             // Arrange
             double beginningBalance = 40;
-            double debitAmount = 10;
+            double debitAmount = 50;
             double expected = 30; //7.44;
             BankAccount account = new BankAccount("vidapogosoft", beginningBalance);
 
